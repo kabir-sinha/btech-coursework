@@ -10,6 +10,7 @@ A pretrained Stable Diffusion v1.5 model from the HuggingFace Diffusers library 
 - CSET419_GenAI_Lab1.ipynb — Implementation notebook  
 - E23CSEU1343-Kabir-CSET419-Lab1.pdf — Lab report  
 - synthetic_dataset.zip — Generated dataset samples  
+- NOTES.md — Lab learning notes and observations
 
 ## Outcome
 This experiment demonstrates the use of pretrained diffusion models for synthetic dataset creation and visualization, which can be further utilized for downstream machine learning tasks.
