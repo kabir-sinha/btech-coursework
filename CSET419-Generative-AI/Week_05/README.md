@@ -19,6 +19,7 @@ An encoder–decoder architecture was implemented using convolutional and transp
 - dataset/
   - baseline_loss_curve.png — Training loss visualization  
   - baseline_translation_results.png — Reconstruction comparison  
+  - baseline_encoder_decoder.pth — Trained model weights  
 
 - NOTES.md — Lab learning notes  
 
