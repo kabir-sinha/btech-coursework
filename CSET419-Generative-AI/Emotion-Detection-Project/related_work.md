@@ -1,19 +1,26 @@
 # Related Work
 
-## BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
-Devlin et al., 2019
+## TACO: A Triple-View Framework for Fine-Grained Emotion Classification
 
-BERT introduced a transformer-based architecture capable of learning deep contextual representations of language. It significantly improved performance in many NLP tasks including text classification.
+This project is inspired by the research paper:
 
----
+**Learning Fine-Grained Emotion Representations with a Triple-View Framework (TACO)**  
+Gong et al., ACL 2025
 
-## DeepMoji: Emotion Recognition using Deep Neural Networks
-Felbo et al., 2017
+Paper Link:
+https://aclanthology.org/2025.acl-long.247/
 
-DeepMoji demonstrated that large-scale deep learning models can capture emotional context in text.
+### Summary
 
----
+The TACO framework improves emotion classification by combining three complementary learning perspectives:
 
-## Transformer Models for Emotion Detection
+1. **Instance–Label View**  
+   The model jointly learns representations of textual instances and emotion labels.
 
-Recent NLP research shows that transformer-based models outperform traditional machine learning approaches in emotion and sentiment classification tasks.
+2. **Instance–Instance View**  
+   Contrastive learning is used to group semantically similar emotional texts.
+
+3. **Label Description View**  
+   Descriptions of emotion labels help improve learning for rare emotion classes.
+
+This multi-view learning strategy improves the representation of emotional information in text and leads to better classification performance.
