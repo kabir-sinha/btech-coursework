@@ -10,68 +10,72 @@ Hamza Usman (E23CSEU1351)
 
 ---
 
-# Project Description
+# Project Overview
 
-Emotion detection is an important Natural Language Processing (NLP) task that aims to identify emotions expressed in text such as joy, sadness, anger, fear, and neutral states.
+Emotion detection in textual data is an important problem in Natural Language Processing (NLP). While traditional sentiment analysis focuses on identifying positive or negative polarity, emotion detection attempts to classify text into finer emotional categories such as happiness, sadness, anger, fear, and surprise.
 
-This project explores the use of transformer-based deep learning models to classify emotions in textual data.
+Accurate emotion recognition from text has applications in several domains including mental health monitoring, human–computer interaction, customer experience analysis, and social media behavior understanding.
 
-The objective is to build a machine learning system capable of learning contextual language representations and predicting emotional categories.
+This project explores the use of transformer-based contextual language models for detecting emotions from textual data. Transformer architectures such as BERT have significantly improved performance across NLP tasks by capturing contextual relationships between words.
+
+The objective of this project is to evaluate transformer-based approaches for emotion classification and analyze their effectiveness compared to conventional text classification techniques.
 
 ---
 
 # Problem Statement
 
-Traditional sentiment analysis methods classify text into positive or negative categories, which fails to capture nuanced emotional states.
+Most traditional approaches for emotion detection rely on bag-of-words representations or classical machine learning models. These approaches fail to capture contextual relationships in language, leading to limited performance when handling complex emotional expressions.
 
-This project aims to build a deep learning based emotion detection system capable of identifying multiple emotional categories from textual input.
+With the emergence of transformer-based models, contextual embeddings can better represent linguistic nuances in text.
 
----
+The problem addressed in this project is:
 
-# Proposed Solution
-
-The proposed solution uses a pretrained transformer model (BERT) for emotion classification.
-
-Steps:
-
-1. Text preprocessing
-2. Tokenization
-3. Transformer model fine-tuning
-4. Multi-class emotion classification
-5. Performance evaluation
+How effectively can transformer-based language models classify emotions in textual data compared to conventional approaches?
 
 ---
 
-# Dataset
+# Proposed Approach
 
-The dataset used in this project contains text samples labeled with emotional categories:
+The project investigates transformer-based models for emotion classification using pre-trained contextual embeddings.
 
-- Joy
-- Sadness
-- Anger
-- Fear
-- Neutral
+The methodology consists of the following steps:
 
-The dataset is used to train and evaluate the emotion classification model.
+1. Selecting publicly available emotion-labelled datasets.
+2. Preprocessing textual data and converting it into tokenized input sequences.
+3. Utilizing transformer-based encoders for generating contextual representations.
+4. Training a classification layer on top of transformer embeddings.
+5. Evaluating model performance using standard metrics such as accuracy and F1-score.
 
----
-
-# Evaluation Metrics
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
+The project also experiments with an implementation inspired by the **TACO framework**, which focuses on improved contextual understanding for emotion classification.
 
 ---
 
-# Team Contributions
+# Repository Structure
 
-Kabir Sinha  
-Model implementation, experimentation, and documentation
+Emotion-Detection-Project/
 
-Ayush Srivastava  
-Dataset preprocessing and baseline models
+README.md — Project overview  
+related_work.md — Literature review and research papers  
+dataset.md — Dataset description and preprocessing  
+experiments.md — Experimental setup and results  
 
-Hamza Usman  
-Evaluation metrics
+notebooks/  
+taco_emotion_experiment.ipynb  
+
+---
+
+# Technologies Used
+
+Python  
+PyTorch  
+HuggingFace Transformers  
+Scikit-learn  
+Google Colab
+
+---
+
+# Expected Outcome
+
+The expected outcome of this project is to demonstrate the effectiveness of transformer-based architectures for emotion detection tasks and analyze their performance across standard evaluation metrics.
+
+The study also aims to highlight the advantages of contextual embeddings in understanding emotional expressions within natural language.
