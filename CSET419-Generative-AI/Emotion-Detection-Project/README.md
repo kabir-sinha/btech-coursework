@@ -1,9 +1,25 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
+![NLP](https://img.shields.io/badge/Task-NLP-green)
+![Dataset](https://img.shields.io/badge/Dataset-GoEmotions-orange)
+
 # Emotion Detection in Text using Transformer Models
 
+## Project Objective
+
+The objective of this project is to explore transformer-based architectures for emotion detection in textual data and evaluate their performance on emotion-labelled datasets using contextual language representations.
+
+---
+
 ## Course
+
 CSET419 — Introduction to Generative AI
 
+---
+
 ## Team Members
+
 Kabir Sinha (E23CSEU1343)  
 Ayush Srivastava (E23CSEU1344)  
 Hamza Usman (E23CSEU1351)
@@ -70,7 +86,7 @@ Python
 PyTorch  
 HuggingFace Transformers  
 Scikit-learn  
-Google Colab
+Google Colab  
 
 ---
 
@@ -79,3 +95,16 @@ Google Colab
 The expected outcome of this project is to demonstrate the effectiveness of transformer-based architectures for emotion detection tasks and analyze their performance across standard evaluation metrics.
 
 The study also aims to highlight the advantages of contextual embeddings in understanding emotional expressions within natural language.
+
+---
+
+# References
+
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019).  
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
+
+Demszky, D., Movshovitz-Attias, D., Ko, J., Cowen, A., Nemade, G., & Ravi, S. (2020).  
+GoEmotions: A Dataset of Fine-Grained Emotions.
+
+TACO Framework Implementation  
+https://github.com/Alcyoneus87/TACO
