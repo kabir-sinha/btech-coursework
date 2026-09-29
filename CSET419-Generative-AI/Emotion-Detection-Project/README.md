@@ -12,9 +12,9 @@ CSET419 — Introduction to Generative AI
 
 ## Team Members
 
-Kabir Sinha (E23CSEU1343)  
-Ayush Srivastava (E23CSEU1344)  
-Hamza Usman (E23CSEU1351)
+Kabir Sinha  
+Ayush Srivastava  
+Hamza Usman
 
 ---
 
